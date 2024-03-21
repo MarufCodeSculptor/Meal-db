@@ -1,0 +1,19 @@
+/* google fonts  */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* tailwinds utilitiws */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+/* initializing fotns to  body  */
+body {
+  font-family: 'Poppins', sans-serif;
+}
+.banner-background {
+  background-image: url('https://i.postimg.cc/J4sTzDhm/pexels-chan-walrus-958545-1.png'),
+    linear-gradient(to bottom, rgba(15, 15, 15, 0.692), rgba(26, 24, 24, 0.596));
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  background-size: cover;
+  background-position: center;
+  background-blend-mode: overlay;
+}
