@@ -8,6 +8,7 @@ import Home from './Components/Home/Home';
 const router = createBrowserRouter([
   {
     path: '/',
+    loader:()=>fetch('https://www.themealdb.com/api/json/v1/1/categories.php'),
     element: <Home></Home>,
   },
 ]);

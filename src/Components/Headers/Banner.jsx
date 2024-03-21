@@ -4,9 +4,8 @@ const Banner = () => {
       <div className="md:w-banner-width p-5">
         <div className="text-dim-white">
           <h2 className=" text-2xl lg:text-5xl font-bold text-center  lg:leading-big-line">
-            Taste Our{' '}
-            <span className="text-pink-600  font-extrabold ">Delicious</span>{' '}
-            <br /> Best Foods
+            Taste Our <span className="font-extrabold ">Delicious</span> <br />{' '}
+            Best Foods
           </h2>
           <p className="text-sm lg:text-text-des lg:leading-9 text-center">
             {' '}
